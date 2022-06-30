@@ -1,0 +1,27 @@
+{
+  "name": "react-native-vibration-v2",
+  "version": "0.0.1",
+  "description": "Vibration module wrapping VibrationIOS and adding support for android",
+  "main": "Vibration.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayafIsmael/react-native-vibration-v2.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "android",
+    "ios",
+    "vibration"
+  ],
+  "author": "Sayaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sayafIsmael/react-native-vibration-v2/issues"
+  },
+  "homepage": "https://github.com/sayafIsmael/react-native-vibration-v2#readme"
+}
