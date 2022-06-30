@@ -1,11 +1,11 @@
-# react-native-vibration
+# react-native-vibration-v2
 
 Vibration module with support for android, based on the pull request https://github.com/facebook/react-native/pull/2794 from @christopherdro. For iOS it wraps VibrationIOS. On iOS the duration can't be specified. If you don't specify a duration on Android 300ms will be used.
 
 ### Installation
 
 ```bash
-npm i --save react-native-vibration
+npm i --save react-native-vibration-v2
 ```
 
 ### Add it to your android project
@@ -15,7 +15,7 @@ npm i --save react-native-vibration
 ```gradle
 ...
 include ':ReactNativeVibration', ':app'
-project(':ReactNativeVibration').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vibration/android')
+project(':ReactNativeVibration').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vibration-v2/android')
 ```
 
 * In `android/app/build.gradle`
@@ -71,7 +71,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
 'use strict';
 
 var React = require('react-native');
-var Vibration = require('react-native-vibration');
+var Vibration = require('react-native-vibration-v2');
 
 var {
   AppRegistry,
